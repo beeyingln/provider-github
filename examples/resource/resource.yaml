@@ -1,11 +1,13 @@
-apiVersion: resource.template.jet.crossplane.io/v1alpha1
+apiVersion: resource.github.jet.crossplane.io/v1alpha1
 kind: Resource
 metadata:
-  name: addressresource1
+  name: repositoryresource1
   annotations:
-    terraformResourceType: <RESOURCE_TYPE>
+    terraformResourceType: github_repository
 spec:
   forProvider:
-    <RESOURCE_DEFINITION>
+    name: repositoryresource1
+    description: "Managed with Crossplane Github Provider (generated with Terrajet)"
+    visibility: public
   providerConfigRef:
     name: default
