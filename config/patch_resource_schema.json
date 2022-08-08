@@ -1,0 +1,39 @@
+{
+    "provider_schemas": {
+        "registry.terraform.io/tf_provider_source": {
+            "data_source_schemas": {
+                "template_resource": {
+                    "block": {
+                        "attributes": {
+                            "id": {
+                                "computed": true,
+                                "description_kind": "plain",
+                                "optional": true,
+                                "type": "string"
+                            }
+                        },
+                        "description_kind": "plain"
+                    },
+                    "version": 0
+                }
+            },
+            "resource_schemas": {
+                "template_resource": {
+                    "block": {
+                        "attributes": {
+                            "id": {
+                                "computed": true,
+                                "description_kind": "plain",
+                                "optional": true,
+                                "type": "string"
+                            }
+                        },
+                        "description": "",
+                        "description_kind": "markdown"
+                    },
+                    "version": 0
+                }
+            }
+        }
+    }
+}
